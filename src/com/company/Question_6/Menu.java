@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Menu {
 
-    private Scanner input = new Scanner(System.in);
     private Library library = new Library();
 
     protected void startMenu() {
+         Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome to the Video Game Library, what would you like to do?  \n" +
                 "1. Add a game to the Library \n" +
@@ -46,8 +46,8 @@ public class Menu {
                     break;
                 default:
                     //prompt user to pick a correct number, loop back to menu
-                    System.out.println("Please pick a number between 1 and 4");
                     startMenu();
+                    System.out.println("Please pick a number between 1 and 4");
                     break;
             }
         } catch (InputMismatchException ime) {
