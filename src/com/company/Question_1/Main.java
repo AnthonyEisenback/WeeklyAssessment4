@@ -1,12 +1,19 @@
 package com.company.Question_1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
    /*
     YOUR NAME HERE! - No really put your name here so we know who this belongs to when we grade it <3
+
+    Anthony Eisenback
      */
 
     public static void main(String[] args) {
+
+
          /*
         1. In this class initialize a List as an ArrayList.
         2. Create a method called addToArrayList to add 6 values of your choosing to this ArrayList.
