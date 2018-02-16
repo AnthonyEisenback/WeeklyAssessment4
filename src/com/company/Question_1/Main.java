@@ -2,6 +2,7 @@ package com.company.Question_1;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -11,7 +12,10 @@ public class Main {
     Anthony Eisenback
      */
 
+
     public static void main(String[] args) {
+
+        List<addToArrayList> number = new ArrayList();
 
 
          /*
@@ -20,7 +24,12 @@ public class Main {
         3. Create a new method in this class called displayArray.
         4. Have this new method use a ForEach loop to iterate through the ArrayList and display each item to the user.
          */
-
-
+         addToArrayList cow = new addToArrayList();
     }
+
+
+
 }
+
+
+
